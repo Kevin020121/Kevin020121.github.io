@@ -7,7 +7,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://gitee.com/yk020121/yk020121.gitee.io.git main
+git push -f https://github.com/Kevin020121/Kevin020121.github.io.git main
 
 
 # 生成静态文件
@@ -27,6 +27,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://gitee.com/yk020121/yk020121.gitee.io.git master:gh-pages
+git push -f https://github.com/Kevin020121/Kevin020121.github.io.git master:gh-pages
 
 cd -
