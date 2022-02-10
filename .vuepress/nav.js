@@ -10,12 +10,12 @@ module.exports =  [
     "icon": "reco-date"
   },
   {
-    "text": "笔记",
+    "text": "学习笔记",
     "icon": "reco-message",
     "items": [
       {
-        "text": "vuepress-reco",
-        "link": "/docs/theme-reco/"
+        "text": "vue",
+        "link": "/docs/vue/vue3"
       }
     ]
   },

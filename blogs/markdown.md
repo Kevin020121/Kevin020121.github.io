@@ -1,8 +1,10 @@
 ---
 title: markdown学习
 date: 2022-2-10
-sidebar: auto
+
 categories: 
+ - markdown
+tags: 
  - markdown
 ---
 

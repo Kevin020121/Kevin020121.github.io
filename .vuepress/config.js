@@ -5,6 +5,13 @@ moment.locale('zh-cn');
 
 module.exports = {
   "title": "Kevin的博客",
+  locales: {
+    // 键名是该语言所属的子路径
+    // 作为特例，默认语言可以使用 '/' 作为其路径。
+    '/': {
+      lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+    }
+  },
   "description": "加载中",
   "dest": "public",
   "head": [
@@ -27,25 +34,34 @@ module.exports = {
   "themeConfig": {
     nav,
     "sidebar": {
-      
+      '/docs/vue/': [
+        {
+          title: 'vue教程',
+          children: [
+            '/',
+            'one',
+            'vue3'
+          ]
+        }
+      ]
     },
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "分类"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
       {
-        "title": "午后南杂",
+        "title": "Kevin",
         "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
+        "email": "1368052450@qq.com",
+        "link": "https://www.kevin-icu.top"
       },
       {
         "title": "vuepress-theme-reco",
@@ -62,7 +78,7 @@ module.exports = {
     "authorAvatar": "/avatar.gif",
     "record": "xxxx",
     "startYear": "2017",
-    'sidebar': 'auto'
+    'subSidebar': 'auto'
   },
   "markdown": {
     "lineNumbers": true
