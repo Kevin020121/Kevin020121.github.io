@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = {
   "title": "Kevin",
   "description": "博客学习",
@@ -115,7 +117,16 @@ module.exports = {
         },
         width: 240,
         height: 352
-      }
+      },
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp, lang) => {
+            moment.locale(lang)
+            return moment(timestamp).format('LLLL')
+          }
+        }
+      ]
     ]
   ]
 }
