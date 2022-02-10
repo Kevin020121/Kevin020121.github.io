@@ -50,19 +50,14 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://https://github.com/Kevin020121/Kevin020121.github.io",
             "icon": "reco-github"
           }
         ]
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ]
+      
     },
     "type": "blog",
     "blogConfig": {
@@ -94,7 +89,7 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "最后跟新时间",
     "author": "Kevin",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/avatar.gif",
     "record": "xxxx",
     "startYear": "2017",
     'sidebar': 'auto'
@@ -116,14 +111,18 @@ module.exports = {
           left: '40px', bottom: '-20px', opacity: '0.9'
         }
       },
-      [
-        '@vuepress/last-updated',
-        {
-          transformer: (timestamp) => {
-            return moment(timestamp).format('LLLL');
-          }
+    ],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp) => {
+          return moment(timestamp).format('LLLL');
         }
-      ]
-    ]
+      }
+    ],
+    [
+      'vuepress-plugin-code-copy', true
+    ],
+    
   ]
 }
