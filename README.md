@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 今天你学习了吗
+tagline: 一个头发还在的程序猿
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

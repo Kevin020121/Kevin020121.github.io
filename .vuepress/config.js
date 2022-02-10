@@ -1,8 +1,9 @@
-const moment = require('moment');
+﻿const moment = require('moment');
+moment.locale('zh-cn');
 
 module.exports = {
-  "title": "Kevin",
-  "description": "博客学习",
+  "title": "Kevin的博客",
+  "description": "加载中",
   "dest": "public",
   "head": [
     [
@@ -109,21 +110,17 @@ module.exports = {
         theme: ['koharu'],
         //theme: ['ackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
         clean: true,
-        messages: {
-          welcome: '我是lookroot欢迎你的关注 ',
-          home: '心里的花，我想要带你回家。',
-          theme: '好吧，希望你能喜欢我的其他小伙伴。',
-          close: '再见哦'
-        },
-        width: 240,
-        height: 352
+        width: 135,
+        height: 300,
+        modelStyle: {
+          left: '40px', bottom: '-20px', opacity: '0.9'
+        }
       },
       [
         '@vuepress/last-updated',
         {
-          transformer: (timestamp, lang) => {
-            moment.locale(lang)
-            return moment(timestamp).format('LLLL')
+          transformer: (timestamp) => {
+            return moment(timestamp).format('LLLL');
           }
         }
       ]
