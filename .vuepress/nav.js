@@ -6,7 +6,7 @@ module.exports =  [
   },
   {
     "text": "时间线",
-    "link": "/timeline/",
+  "link": "/timeline/",
     "icon": "reco-date"
   },
   {
