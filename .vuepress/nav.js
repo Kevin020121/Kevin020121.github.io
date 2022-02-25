@@ -14,9 +14,17 @@ module.exports =  [
     "icon": "reco-message",
     "items": [
       {
-        "text": "vue",
-        "link": "/docs/vue/vue3"
-      }
+        "text": "数据结构",
+        "link": "/docs/DateStruct/introduction"
+      },
+      {
+        "text": "VR虚拟现实",
+        "link": "/docs/VirtualReality/introduction"
+      },
+      {
+        "text": "PHP",
+        "link": "/docs/PHP/introduction"
+      },
     ]
   },
   {

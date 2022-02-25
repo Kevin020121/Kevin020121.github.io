@@ -1,4 +1,5 @@
 ﻿const nav = require('./nav');
+const sidebar = require('./sidebar');
 
 const moment = require('moment');
 moment.locale('zh-cn');
@@ -33,18 +34,7 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     nav,
-    "sidebar": {
-      '/docs/vue/': [
-        {
-          title: 'vue教程',
-          children: [
-            '/',
-            'one',
-            'vue3'
-          ]
-        }
-      ]
-    },
+    sidebar,
     "type": "blog",
     "blogConfig": {
       "category": {
