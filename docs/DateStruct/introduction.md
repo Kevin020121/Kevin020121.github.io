@@ -1,5 +1,5 @@
 ---
-title: 绪论
+title: 初识数据结构
 date: 2022-2-26
 categories: 
  - 数据结构

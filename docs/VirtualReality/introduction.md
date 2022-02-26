@@ -1,5 +1,5 @@
 ---
-title: 理论知识
+title: 初识虚拟现实
 date: 2022-2-26
 categories: 
  - VR虚拟现实

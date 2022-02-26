@@ -28,6 +28,24 @@ module.exports =  [
     ]
   },
   {
+    "text":"好用网站",
+    "icon": "reco",
+    "items": [
+      {
+        "text": "中国知网",
+        "link": "https://www.cnki.net/"
+      },
+      {
+        "text": "超星发现",
+        "link": "https://www.zhizhen.com/"
+      },
+      {
+        "text": "中科VIPExam",
+        "link": "http://www.vipexam.org/"
+      }
+    ]
+  },
+  {
     "text": "联系我",
     "icon": "reco-message",
     "items": [
