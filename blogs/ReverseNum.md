@@ -1,6 +1,6 @@
 ---
 title: 数字逆序
-date: 2020-2-27
+date: 2022-2-27
 
 categories: 
  - 计算机二级C
