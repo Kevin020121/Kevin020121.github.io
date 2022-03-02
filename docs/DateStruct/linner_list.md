@@ -213,4 +213,128 @@ int main(void)
 }
 ```
 
-<p style="text-indent:2em">用户输入要插入的数据，首先找到该数据要插入的位置，然后从该位置开始往后移动一个位置，最后将数据插入到指定位置。</p>
+<p style="text-indent:2em">用户输入要插入的数据，首先找到该数据要插入的位置，然后从该位置开始依次往后移动一个位置，最后将数据插入到指定位置。</p>
+
+## 七、有序表的合并
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+#define La 5
+#define Lb 5
+
+int main(void)
+{
+	int arr_a[La] = {1,3,5,7,9};
+	int arr_b[Lb] = {2,4,6,8,10};
+	int arr_c[La + Lb] = {0};
+	int i = 0,
+		j = 0,
+		k = 0;
+
+	printf("原来的线性表：\n");
+	for(i = 0;i < La;i++)
+	{
+		printf("%4d", arr_a[i]);
+	}
+	printf("\n");
+	for(j = 0;j < Lb;j++)
+	{
+		printf("%4d", arr_b[j]);
+	}
+	printf("\n");
+
+	i = j = 0;
+	//依次比较
+	while(i < La && j < Lb)
+	{
+		if(arr_a[i] <= arr_b[j])
+		{
+			arr_c[k] = arr_a[i++];
+		}
+		else
+		{
+			arr_c[k] = arr_b[j++];
+		}
+		k++;
+	}
+	//收尾
+	while(i < La)
+	{
+		arr_c[k] = arr_a[i++];
+	}
+	while(j < Lb)
+	{
+		arr_c[k] = arr_b[j++];
+	}
+
+	printf("合并之后的有序表：");
+	for(i = 0;i < La + Lb;i++)
+	{
+		printf("%4d", arr_c[i]);
+	}
+	printf("\n");
+    
+	system("pause>0");
+	return 0;
+}
+```
+
+<p style="text-indent:2em">思路：两个有序的线性表arr_a和arr_b，利用while循环依次进行比较，数小的放进arr_c中，直到有一个线性表到了结尾。另一个有序表没有到结尾，所以最后还需要做收尾操作，将没有到结尾的有序表剩下的依次放入arr_c线性表中。</p>
+
+## 八、线性表的删除
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+#define N 10
+
+int main(void)
+{
+	int arr[N] = {1,3,5,7,9,2,4,6,8,10};
+	int x = 0;	//要删除的数据
+	int i = 0;
+	int index = 0;	//下标
+	printf("原来的线性表：");
+	for(i = 0;i < N;i++)
+	{
+		printf("%4d", arr[i]);
+	}
+	printf("\n");
+	
+	printf("请输入要删除的数据：");
+	scanf("%d", &x);
+
+	//查找该数据的下标
+	while(index < N && x != arr[index])
+	{
+		index++;
+	}
+
+	if(index == N)//如果下标为N（也就是没有改数据）
+	{
+		printf("输入有误，没有该数据！\n");
+	}
+	else	//有改数据
+	{
+        //从该数据的下标开始，依次将前面的元素赋值给后面的元素
+		for(i = index;i < N - 1;i++)	
+		{
+			arr[i] = arr[i + 1];
+		}
+		printf("删除之后的线性表：");
+		for(i = 0;i < N - 1;i++)	//输出N - 1个元素
+		{
+			printf("%4d", arr[i]);
+		}
+	
+	}
+
+	system("pause>0");
+	return 0;
+}
+```
+
+<p style="text-indent:2em">思路：输入一个数据，然后循环查找该数据在线性表的位置。如果位置为线性表的长度，说明没有该数据；反之则说明有该数据，进行删除操作。从该数据的位置开始，依次循环赋值前面一个元素，最后输出N-1个元素。</p>
