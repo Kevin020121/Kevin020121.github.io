@@ -31,7 +31,8 @@ module.exports = {
       title: '计算机二级C',
       children: [
         'ReverseNum',
-        'ReverseArray'
+        'ReverseArray',
+        'FindPrimeNumber'
       ]
     }
   ]
