@@ -29,7 +29,8 @@ module.exports = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
-    ]
+    ],
+    
   ],
   "theme": "reco",
   "themeConfig": {
@@ -99,6 +100,6 @@ module.exports = {
     [
       'vuepress-plugin-code-copy', true
     ],
-    
+    ['@vuepress/medium-zoom']
   ]
 }
