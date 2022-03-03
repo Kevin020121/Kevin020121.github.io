@@ -280,7 +280,7 @@ echo $stu1->$name;
 ### 1. 趣味数学
 
 
-![image-20220303150447711](https://markdown123.oss-cn-beijing.aliyuncs.com/img/image-20220303150447711.png)
+<a data-fancybox title="image-20220303150447711" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/image-20220303150447711.png">![image-20220303150447711](https://markdown123.oss-cn-beijing.aliyuncs.com/img/image-20220303150447711.png)</a>
 
 代码：
 
@@ -299,7 +299,7 @@ for($i = 1; $i <= 9;$i++)
 
 ### 2. 99乘法表
 
-![image-20220303150246948](https://markdown123.oss-cn-beijing.aliyuncs.com/img/image-20220303150246948.png)
+<a data-fancybox title="image-20220303150246948" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/image-20220303150246948.png">![image-20220303150246948](https://markdown123.oss-cn-beijing.aliyuncs.com/img/image-20220303150246948.png)</a>
 
 代码：
 

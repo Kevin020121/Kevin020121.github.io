@@ -54,7 +54,7 @@ localhost => 172.0.0.1
 
 ## 七. 通过域名访问网页
 
-![QQ截图20220226132455](https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220226132455.png)
+<a data-fancybox title="QQ截图20220226132455" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220226132455.png">![QQ截图20220226132455](https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220226132455.png)</a>
 
 填写域名，将根目录设置为自己的php文件夹，打开浏览器，输入自己填写的域名即可访问。
 
@@ -68,7 +68,7 @@ localhost => 172.0.0.1
 
 实现下面图片的效果
 
-![QQ截图20220226132842](https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220226132842.png)
+<a data-fancybox title="QQ截图20220226132842" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220226132842.png">![QQ截图20220226132842](https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220226132842.png)</a>
 
 答案：
 
