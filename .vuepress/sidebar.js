@@ -25,5 +25,14 @@ module.exports = {
         'BaseKnowledge'
       ]
     }
+  ],
+  '/docs/NCRE2/': [
+    {
+      title: '计算机二级C',
+      children: [
+        'ReverseNum',
+        'ReverseArray'
+      ]
+    }
   ]
 }

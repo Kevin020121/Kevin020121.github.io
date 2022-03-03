@@ -25,6 +25,10 @@ module.exports =  [
         "text": "PHP",
         "link": "/docs/PHP/introduction"
       },
+      {
+        "text": "计算机二级C",
+        "link": "/docs/NCRE2/ReverseNum"
+      }
     ]
   },
   {
