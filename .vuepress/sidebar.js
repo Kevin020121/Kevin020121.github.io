@@ -1,4 +1,13 @@
 module.exports = {
+  '/docs/PHP/': [
+    {
+      title: 'PHP教程',
+      children: [
+        'introduction',
+        'BaseKnowledge'
+      ]
+    }
+  ],
   '/docs/DateStruct/': [
     {
       title: '数据结构',
@@ -17,15 +26,6 @@ module.exports = {
     }
 
   ],
-  '/docs/PHP/': [
-    {
-      title: 'PHP教程',
-      children: [
-        'introduction',
-        'BaseKnowledge'
-      ]
-    }
-  ],
   '/docs/NCRE2/': [
     {
       title: '计算机二级C',
@@ -33,6 +33,15 @@ module.exports = {
         'ReverseNum',
         'ReverseArray',
         'FindPrimeNumber'
+      ]
+    }
+  ],
+  '/docs/UI/': [
+    {
+      title: 'UI设计基础',
+      children: [
+        'UIone',
+        'UItwo'
       ]
     }
   ]

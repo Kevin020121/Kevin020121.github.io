@@ -28,6 +28,10 @@ module.exports =  [
       {
         "text": "计算机二级C",
         "link": "/docs/NCRE2/ReverseNum"
+      },
+      {
+        "text": "UI设计基础",
+        "link": "/docs/UI/UIone"
       }
     ]
   },
