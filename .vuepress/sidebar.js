@@ -32,7 +32,8 @@ module.exports = {
       children: [
         'ReverseNum',
         'ReverseArray',
-        'FindPrimeNumber'
+        'FindPrimeNumber',
+        'SqrtNum'
       ]
     }
   ],
