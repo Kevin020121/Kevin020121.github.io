@@ -13,7 +13,8 @@ module.exports = {
       title: '数据结构',
       children: [
         'introduction',
-        'linner_list'
+        'linner_list',
+        'LinkList'
       ]
     }
   ],
