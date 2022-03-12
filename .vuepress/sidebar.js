@@ -4,7 +4,8 @@ module.exports = {
       title: 'PHP教程',
       children: [
         'introduction',
-        'BaseKnowledge'
+        'BaseKnowledge',
+        'Array'
       ]
     }
   ],

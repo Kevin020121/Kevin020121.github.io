@@ -126,3 +126,23 @@ echo $a,$b,$c,$d;  // 1,2,3,4,5
 
 随机生成200个小写字母，按照abcd ... xyz的顺序统计每一个小写字母出现的个数。
 
+<a data-fancybox title="QQ截图20220312231951" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220312231951.png">![QQ截图20220312231951](https://markdown123.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20220312231951.png)</a>
+
+```php
+<?php
+$a = array();
+echo "随机生成200个小写字母：<br/>";
+for($i = 0;$i < 200;$i++)  {
+    $a[$i] = chr(rand(97,122));
+    echo $a[$i]."&nbsp;&nbsp;&nbsp;";
+    if(($i + 1) % 40 == 0) {
+        echo "<br/>";
+    }
+}
+echo "每个字母的个数：<br/>";
+$b = array_count_values($a);
+foreach ($b as $key => $val){
+    echo "$key"."：$val"."个<br/>";
+}
+```
+
