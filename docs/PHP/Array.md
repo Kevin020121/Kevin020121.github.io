@@ -141,6 +141,7 @@ for($i = 0;$i < 200;$i++)  {
 }
 echo "每个字母的个数：<br/>";
 $b = array_count_values($a);
+ksort($b);
 foreach ($b as $key => $val){
     echo "$key"."：$val"."个<br/>";
 }
