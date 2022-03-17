@@ -112,7 +112,7 @@ foreach($arr as $val) {
 }
 ```
 
-![第一题](https://markdown123.oss-cn-beijing.aliyuncs.com/img/%E7%AC%AC%E4%B8%80%E9%A2%98.png)
+<a data-fancybox title="第一题" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/%E7%AC%AC%E4%B8%80%E9%A2%98.png">![第一题](https://markdown123.oss-cn-beijing.aliyuncs.com/img/%E7%AC%AC%E4%B8%80%E9%A2%98.png)</a>
 
 ### 2. 随机产生10个100以内互不相同的正整数，按照从小到大的顺序输出
 
@@ -132,4 +132,4 @@ foreach ($arr as $val) {
 
 
 
-![第三题](https://markdown123.oss-cn-beijing.aliyuncs.com/img/%E7%AC%AC%E4%B8%89%E9%A2%98.png)
+<a data-fancybox title="第三题" href="https://markdown123.oss-cn-beijing.aliyuncs.com/img/%E7%AC%AC%E4%B8%89%E9%A2%98.png">![第三题](https://markdown123.oss-cn-beijing.aliyuncs.com/img/%E7%AC%AC%E4%B8%89%E9%A2%98.png)</a>
