@@ -5,7 +5,8 @@ module.exports = {
       children: [
         'introduction',
         'BaseKnowledge',
-        'Array'
+        'Array',
+        'String'
       ]
     }
   ],
